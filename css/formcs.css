@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Josefin+Sans&family=Lobster&family=Montserrat:wght@500&family=PT+Serif&family=Tangerine:wght@700&family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{ background: url(bg/signup_bg.jpg); }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.container{
+    background: #383838;
+    border-radius: 6px;
+    max-width: 500px;
+}
+.bt{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+}
+.bt:hover{
+    background-color: #000;
+    color: #fff;
+}
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+.log{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h6, h3{
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+.form-input{
+    border: 0;
+    height: 45px;
+    border-radius: 3px;
+}
+.small{
+    color: red;
+    font-size: 15px;
+}
+.account{
+    padding-top: 10px;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+.fa-eye{
+    cursor: pointer;
+}
+.eyeopen{
+    background-color: white;
+}
+.forgot_pass{
+    text-decoration: underline;
+    color: darkblue;
+    font-weight: 600;
+}
+.forgot_pass:hover{ color: rgb(67, 67, 226);}
+@media(max-width: 520px){
+    .container{
+        max-width: 400px;
+    }
+    .account{
+        font-size: 15px;
+    }
+}
+@media(max-width: 420px){
+    .container{
+        max-width: 320px;
+    }
+    .small{
+        font-size: 12px;
+    }
+    .center, .account{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        display: block;
+    }
+}
+@media(max-width: 340px){
+    .container{
+        max-width: 300px;
+    }
+}

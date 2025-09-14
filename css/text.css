@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Josefin+Sans&family=Lobster&family=Montserrat:wght@400&family=PT+Serif&family=Tangerine:wght@700&family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{ background: url('bg/signup_bg.jpg'); }
+p{
+    font-family: 'PT Serif', serif;
+    color: rgb(221, 215, 215);
+}
+b{ 
+    font-size: 22px;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{ color: white; }
+.displays{
+    width: 90%;
+    border-bottom: 3px solid rgb(80, 78, 78);
+    border-top: 3px solid rgb(80, 78, 78);
+}
+.delete{
+    cursor: pointer;
+    color:red;
+    font-weight: 600;
+}
+table, th,td{ color: white; }
+.bt{ font-family: 'Montserrat', sans-serif; }
+.txt2{
+    border-bottom: 3px solid darkgrey;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+.totalr{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.no_result{
+    padding: 10px 40px 10px 40px;
+    color: white;
+    margin-top:20px; 
+    border-top: 2px solid #000; 
+    border-bottom: 2px solid #000;
+}
+.nor{
+    font-size: 16px;
+    color: whitesmoke;
+}
+.header_text{
+    color : white;
+    background: #050505;
+    font-size: 22px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border-bottom: 3px solid #0A95E1;
+    border-left: 3px solid #0A95E1;
+}
+.para_text{
+    color: white;
+    font-size: 20px;
+}
+em{ color: #0A95E1; }
+.contactme{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+.contactme a{
+    border-radius: 7px;
+    background-color: #000;
+    border-bottom: 3px solid #0A95E1;
+    border-left: 3px solid #0A95E1;
+}
+.contactme i{ font-size: 30px; }
+
+@media(max-width: 770px){
+    .para_text{ font-size: 18px; }
+}
+@media (max-width: 550px){
+    .txt2{ font-size: 25px; }
+}
+@media(max-width: 550px){
+    p .rwd-line{ display: inline-block; }
+}
+@media(max-width: 450px){
+    .para_text{ font-size: 16px; }
+    p{ font-size: 16px; }
+    b{ font-size: 17px; }
+}
